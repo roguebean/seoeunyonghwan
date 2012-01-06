@@ -1,0 +1,76 @@
+/* icons */
+.app {
+    font-size: 100px; /* the only absolute size */
+    width: 100.0em;
+    height: 100.0em;
+}
+
+.app {
+    position: relative;
+    background: #fff;
+}
+
+.app div, .app p {
+    margin: 0;
+}
+
+.rounded {
+    border-radius: 10%;
+}
+
+.shadow, .background, .fog, .foreground, .gloss, .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.shadow {
+    z-index: 0;
+    box-shadow: 0em 5em 5em rgba(0, 0, 0, 0.4);
+}
+
+.background {
+    z-index: 1;
+}
+
+.fog {
+    z-index: 100;
+    background: -webkit-linear-gradient(hsla(0, 0%, 90%, .4) 0%, hsla(0, 0%, 80%, .2) 20%, hsla(0, 0%, 80%, .2) 40%, hsla(0, 0%, 60%, .4) 100%);
+}
+
+.foreground {
+    z-index: 101;
+}
+
+.gloss {
+    z-index: 200;
+    height: 51%;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.4)));
+    border-bottom-right-radius: 50% 20%;
+    border-bottom-left-radius: 50% 20%;
+    box-shadow: inset 0em 2em 1em rgba(255, 255, 255, 0.6);
+}
+
+.overlay {
+    z-index: 201;
+}
+
+.badge {
+    z-index: 300;
+    display: none;
+    position: absolute;
+    right: -14%;
+    top: -13.5%;
+    width: 32%;
+    height: 32%;
+    background: #f00000;
+    border: .16em solid #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    font-family: "HelveticaNeue-Bold";
+    font-size: 29em;
+    line-height: 1em;
+    color: #ffffff;
+    box-shadow: 0em .02em .15em rgba(0, 0, 0, 0.6);
+    background: -webkit-gradient(radial, 28 0, 20, 28 -160, 200, from(#F85050), to(#D82028), color-stop(.5, #F85050), color-stop(.5,#E82028));
+}

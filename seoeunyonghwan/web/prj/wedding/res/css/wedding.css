@@ -1,0 +1,70 @@
+/* basic */
+body {
+    background: #eee;
+}
+
+#card {
+    display: none; /* will be shown with animation */
+    position: relative;
+    margin-left: 0;
+    margin-right: auto;
+    width: 558px;
+    height: 745px;
+}
+
+#card .face {
+    background: #fff;
+    border: 1px solid #d3d3d3;
+    border-radius: 11px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.4);
+}
+
+/* contents */
+.app {
+    font-size: 1.77px;
+}
+
+.row {
+    width: 408px;
+    height: 190px;
+    margin: auto;
+}
+
+.column {
+    float: left;
+    margin: 13px;
+    margin-left: 14px;
+    margin-right: 12px;
+}
+
+.space {
+    width: 20px;
+    height: 20px;
+}
+
+.label {
+    width: 50%;
+    margin: auto;
+    margin-top: 61px;
+    text-align: center;
+    font-size: 27px;
+    font-family: "MyriadPro-Cond";
+    letter-spacing: -1px;
+    -webkit-transform: scalex(1.42);
+}
+
+.contents {
+    text-align: center;
+}
+
+.contents h5 {
+    margin-top: 20px;
+}
+
+.contents .section {
+    margin-top: 20px;
+}
+
+.contents img {
+    margin: 20px;
+}

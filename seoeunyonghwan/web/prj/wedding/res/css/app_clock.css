@@ -1,0 +1,119 @@
+.clock .background {
+    background: black;
+}
+
+.clock .fog {
+    display: none;
+}
+
+.clock .circle {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    right: 10%;
+    bottom: 10%;
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e8e8e8), to(#fafafa));
+    border: 1em solid black;
+    border-radius: 50%;
+    box-shadow: inset 0em 1em 2em black;
+}
+
+.clock .circle .gloss {
+    left: 3em;
+    top: 3em;
+    right: 3em;
+    bottom: 3em;
+    width: auto;
+    height: auto;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 500%, 660, from(transparent), to(rgba(255, 255, 255, 0.05)), color-stop(.4, transparent), color-stop(.4, rgba(255, 255, 255, 0.7)));
+    border-radius: 50%;
+}
+
+.clock .pivot {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 0;
+    height: 0;
+}
+
+.clock .oclock {
+    position: absolute;
+    width: 2em;
+    height: 1em;
+    text-align: center;
+    font-family: "Myriad Pro";
+    font-size: 11em;
+    letter-spacing: -0.11em;
+    color: #000000;
+    z-index: 202;
+}
+
+.clock .one    { left:  0.45em; top: -2.95em; }
+.clock .two    { left:  1.45em; top: -1.85em; }
+.clock .three  { left:  1.80em; top: -0.50em; }
+.clock .four   { left:  1.40em; top:  0.95em; }    
+.clock .five   { left:  0.40em; top:  2.00em; }
+.clock .six    { left: -1.00em; top:  2.35em; }
+.clock .seven  { left: -2.45em; top:  1.90em; }
+.clock .eight  { left: -3.40em; top:  0.95em; } 
+.clock .nine   { left: -3.85em; top: -0.50em; }
+.clock .ten    { left: -3.45em; top: -1.85em; }
+.clock .eleven { left: -2.40em; top: -2.95em; }
+.clock .twelve { left: -1.05em; top: -3.25em; }
+
+.clock .hour, .clock .minute, .clock .second {
+    position: absolute;
+    -webkit-transform-origin: 50% 0%;
+}
+
+.clock .hour, .clock .minute {
+    width: 0em;
+    height: 0em;
+    border-left: 3.5em solid transparent;
+    border-right: 3.5em solid transparent;
+}
+
+.clock .hour {
+    left: -3.5em;
+    border-top: 20em dashed black;
+    -webkit-transform: rotate(255deg);
+}
+
+.clock .minute {
+    left: -3.5em;
+    border-top: 30em dashed black;
+    -webkit-transform: rotate(0deg);
+}
+
+.clock .second {
+    left: -.5em;
+    width: 1em;
+    height: 36em;
+    background: #ff7030;
+    box-shadow: 0em 1em 2em rgba(0, 0, 0, 0.5);
+    -webkit-transform: rotate(180deg);
+}
+
+.clock .pin {
+    position: absolute;
+    left: -5.5em;
+    top: -5.5em;
+    width: 8.5em;
+    height: 8.5em;
+    background: #e8e8e8;
+    border: 1.6em solid #000;
+    border-radius: 50%;
+    box-shadow: 0em 1em 2em rgba(0, 0, 0, 0.5), inset 0em 1em 2em rgba(0, 0, 0, 0.5);
+}
+
+.clock .secondpin {
+    position: absolute;
+    left: -3em;
+    top: -3em;
+    width: 6em;
+    height: 6em;
+    background: #ff7030;
+    border-radius: 50%;
+    box-shadow: 0em 1em 2em rgba(0, 0, 0, 0.5), inset 0em -1em 2em rgba(0, 0, 0, 0.5);
+}

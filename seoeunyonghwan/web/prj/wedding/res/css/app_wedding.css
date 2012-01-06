@@ -1,0 +1,56 @@
+.wedding .background {
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(0, 164, 0)), to(rgb(0, 244, 0)), color-stop(0.5, rgb(0, 164, 0)));
+}
+
+.wedding .fog {
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(175, 216, 181, 0.9)), to(rgba(0, 244, 0, 0.9)), color-stop(0.5, rgba(0, 164, 0, 0.1)));
+}
+
+.wedding .gloss {
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(240, 240, 255, 0.4)), to(rgba(240, 240, 255, 0.3)));
+}
+
+.wedding .badge {
+    display: block;
+}
+
+.wedding .shapes {
+    position: relative;
+}
+
+.wedding .ring {
+    position: absolute;
+    top: 32em;
+    width: 34em;
+    height: 34em;
+    background: transparent;
+    border: 7em solid #e8e8ef;
+    box-shadow: 0em 1em 1em rgba(0, 0, 0, 0.5), inset 0em 1em 1em rgba(0, 0, 0, 0.5), 0em -1em 1em rgba(255, 255, 255, 0.5), inset 0em -1em 1em rgba(255, 255, 255, 0.5);
+    border-radius: 36em;
+}
+
+.wedding .ring.a {
+    left: 14em;
+}
+
+.wedding .ring.b {
+    right: 14em;
+}
+
+.wedding .heart {
+    position: absolute;
+    left: 2.42em;
+    top: 1em;
+    text-shadow: 0em 1em 1em rgba(0, 0, 0, 0.3);
+    font-family: Symbol;
+    font-size: 18em;
+    color: #e8e8ef;
+    -webkit-transform: scalex(1.1);
+}
+
+.wedding .diagonal-lines {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: -webkit-repeating-linear-gradient(top left, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, .2) 2%, transparent 2%, transparent 4%, rgba(0, 0, 0, 0.2) 4%);
+}
