@@ -41,7 +41,7 @@
     position: absolute;
     left: 2.42em;
     top: 1em;
-    text-shadow: 0em 1em 1em rgba(0, 0, 0, 0.3);
+    text-shadow: 0em .1em .1em rgba(0, 0, 0, 0.3);
     font-family: Symbol;
     font-size: 18em;
     color: #e8e8ef;
@@ -52,5 +52,6 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: -webkit-repeating-linear-gradient(top left, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, .2) 2%, transparent 2%, transparent 4%, rgba(0, 0, 0, 0.2) 4%);
+    background: -webkit-repeating-linear-gradient(-52deg, rgba(0, 0, 0, .2) 0%, rgba(0, 0, 0, .2) 2.6%, transparent 2.6%, transparent 4.9%);
+    border-radius: inherit;
 }

@@ -4,7 +4,6 @@ body {
 }
 
 #card {
-    display: none; /* will be shown with animation */
     position: relative;
     margin-left: 0;
     margin-right: auto;

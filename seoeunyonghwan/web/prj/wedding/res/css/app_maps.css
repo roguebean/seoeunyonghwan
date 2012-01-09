@@ -29,26 +29,26 @@
 
 .maps .streets .white.vertical.a {
     left: 7em;
-    top: 50em;
-    height: 46em;
+    top: 52em;
+    height: 41em;
 }
 
 .maps .streets .white.vertical.b {
     left: 50em;
-    top: 40em;
-    height: 56em;
+    top: 35em;
+    height: 60em;
 }
 
 .maps .streets .white.vertical.c {
     left: 68em;
-    top: 50em;
-    height: 46em;
+    top: 52em;
+    height: 43em;
 }
 
 .maps .streets .white.vertical.d {
     left: 84em;
     top: 2em;
-    height: 94em;
+    height: 92em;
 }
 
 .maps .streets .white.horizontal.e {
@@ -201,8 +201,8 @@
 
 .maps .sign p {
     position: absolute;
-    left: 3%;
-    top: 44%;
+    left: 1%;
+    top: 42%;
     width: 100%;
     height: 100%;
     text-align: center;
@@ -224,20 +224,21 @@
     width: 16em;
     height: 16em;
     background: -webkit-gradient(radial, 40% 30%, 1, 48% 40%, 15, from(#FBFEFD), to(#F06060), color-stop(.4,#F23039), color-stop(.8,#C61928), color-stop(.9,#f03030));
+    background: -webkit-radial-gradient(40% 30%, white, #f23039 25%, #c61928 50%, #f03030 70%, #f06060);
     border-radius: 50%;
     box-shadow: inset -2em -8em 6em rgba(0, 0, 0, 0.3);
 }
 
 .maps .pin-rod {
     position: absolute;
-    left: 22em;
-    top: 28em;
-    width: 4em;
-    height: 17em;
-    background: -webkit-gradient(linear, 20% 0%, 80% 0%, from(#F0F0E0), to(#c4c4b4), color-stop(.4,#545444));
-    border-left: 1em solid #a6a4a0;
+    left: 21.5em;
+    top: 27em;
+    width: 5em;
+    height: 18em;
+    background: -webkit-linear-gradient(left, #a6a4a0, #f0f0e0 35%, #545444 60%, #c4c4b4);
     border-bottom-left-radius: 10%;
     border-bottom-right-radius: 10%;
+    box-shadow: inset 0em -1em 1em #333;
 }
 
 .maps .pin-hole {
@@ -248,13 +249,12 @@
     height: 4em;
     background: #333;
     border-radius: 50%;
-    box-shadow: 0em 1em 1em #fff;
 }
 
 .maps .pin-head-shadow {
     position: absolute;
     left: 20em;
-    top: 18em;
+    top: 17em;
     width: 16em;
     height: 8em;
     border-radius: 50%;
@@ -264,7 +264,7 @@
 .maps .pin-rod-shadow {
     position: absolute;
     left: 29em;
-    top: 18em;
+    top: 17em;
     width: 4em;
     height: 14em;
     -webkit-transform: rotate(46deg);

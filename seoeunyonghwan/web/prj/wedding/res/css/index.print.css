@@ -1,0 +1,22 @@
+/* basic */
+body {
+    background: #666;
+}
+
+#card {
+    position: relative;
+    width: 638px;
+    height: 1016px;
+}
+
+#card .face {
+    background: #fff;
+}
+
+/* contents */
+#card .face img {
+    position: relative;
+    margin: auto;
+    margin-top: 185px;
+}
+

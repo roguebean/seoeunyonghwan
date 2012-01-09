@@ -18,7 +18,7 @@
     box-shadow: inset 0em 1em 2em black;
 }
 
-.clock .circle .gloss {
+.clock .circle .inner-gloss {
     left: 3em;
     top: 3em;
     right: 3em;
@@ -46,7 +46,6 @@
     font-size: 11em;
     letter-spacing: -0.11em;
     color: #000000;
-    z-index: 202;
 }
 
 .clock .one    { left:  0.45em; top: -2.95em; }
@@ -90,7 +89,7 @@
     left: -.5em;
     width: 1em;
     height: 36em;
-    background: #ff7030;
+    background: -webkit-linear-gradient(#ff6060, #ff1010);
     box-shadow: 0em 1em 2em rgba(0, 0, 0, 0.5);
     -webkit-transform: rotate(180deg);
 }
@@ -99,8 +98,8 @@
     position: absolute;
     left: -5.5em;
     top: -5.5em;
-    width: 8.5em;
-    height: 8.5em;
+    width: 8em;
+    height: 8em;
     background: #e8e8e8;
     border: 1.6em solid #000;
     border-radius: 50%;
@@ -113,7 +112,7 @@
     top: -3em;
     width: 6em;
     height: 6em;
-    background: #ff7030;
+    background: #ff6060;
     border-radius: 50%;
     box-shadow: 0em 1em 2em rgba(0, 0, 0, 0.5), inset 0em -1em 2em rgba(0, 0, 0, 0.5);
 }
