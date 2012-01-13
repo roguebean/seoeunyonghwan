@@ -1,21 +1,42 @@
 /* basic */
 body {
     background: #eee;
-    font-size: 2px;
+    font-size: 1px;
 }
 
-#card {
+#phone {
     position: relative;
-    margin: 10em auto;
-    width: 319em;
-    height: 508em;
+    margin: auto;
+    width: 320em;
+    background: #fff;
+    border-radius: 20em;
 }
 
-#card .face {
-    background: #fff;
-    border: 1px solid #d3d3d3;
-    border-radius: 10em;
-    box-shadow: 0em 4em 4em rgba(0, 0, 0, 0.4);
+#header {
+    width: 100%;
+    height: 20em;
+}
+
+#screen {
+    margin: auto;
+    width: 290em;
+    height: 290em;
+    background: #000;
+}
+
+#footer {
+    width: 100%;
+    height: 80em;
+}
+
+#home {
+    position: relative;
+    margin: auto;
+    top: 10em;
+    width: 56em;
+    height: 56em;
+    border: 2em solid #d3d3d3;
+    border-radius: 50%;
 }
 
 /* contents */
