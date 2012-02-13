@@ -36,7 +36,7 @@ body {
 .content {
     position: relative;
     margin: auto;
-    width: 800em;
+    width: 640em;
 }
 
 .content .section {
@@ -47,7 +47,7 @@ body {
 }
 
 .content .section p {
-    font-size: 50em;
+    font-size: 40em;
 }
 
 .content .gallery img {
