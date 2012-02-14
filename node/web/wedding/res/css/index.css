@@ -3,7 +3,6 @@ body {
     font-size: 1px;
     text-align: center;
     background: #000000;
-    background-image: -webkit-linear-gradient(#000000,#090909 470px,#000000);
     color: #ffffff;
 }
 
@@ -14,7 +13,7 @@ body {
 .content {
     position: relative;
     margin: auto;
-    width: 800em;
+    width: 640em;
 }
 
 .content .section {
@@ -23,18 +22,23 @@ body {
     margin: auto;
 }
 
+.content .gallery img {
+    -webkit-box-reflect: below 0px -webkit-linear-gradient(transparent 90%, black);
+}
+
 .content .info {
+    margin-left: 10em;
     text-align: left;
 }
 
 .content .info img {
-    border-radius: 1em;
+    border-radius: .5em;
     vertical-align: middle;
     margin-right: 1em;
 }
 
 .content .info p {
     margin: 1em auto;
-    font-size: 36em;
+    font-size: 32em;
 }
 
