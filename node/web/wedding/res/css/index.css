@@ -1,23 +1,10 @@
-/* general */
-.center {
-    text-align: center;
-}
-
-.left {
-    text-align: left;
-}
-
-/* specific */
-.patio9 {
-    background: #eeeadf;
-}
-
 /* index */
 body {
     font-size: 1px;
     text-align: center;
-    background: #ffffff;
-    color: #303030;
+    background: #000000;
+    background-image: -webkit-linear-gradient(#000000,#090909 470px,#000000);
+    color: #ffffff;
 }
 
 .page {
@@ -31,15 +18,23 @@ body {
 }
 
 .content .section {
-    padding-top: 100em;
-    padding-bottom: 100em;
+    padding-top: 40em;
+    padding-bottom: 40em;
     margin: auto;
 }
 
-.content .section p {
-    font-size: 40em;
+.content .info {
+    text-align: left;
 }
 
-.content .map small {
-    font-size: 20em;
+.content .info img {
+    border-radius: 1em;
+    vertical-align: middle;
+    margin-right: 1em;
 }
+
+.content .info p {
+    margin: 1em auto;
+    font-size: 36em;
+}
+
