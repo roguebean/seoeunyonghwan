@@ -3,6 +3,18 @@ body {
     font-size: 1px;
     text-align: center;
     background: #000000;
+    color: #eeeeee;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    outline: none;
+    color: #eeeeee;
+}
+
+a:active, a:hover, a:focus {
+    text-decoration: underline;
+    outline: none;
     color: #ffffff;
 }
 
@@ -42,3 +54,12 @@ body {
     font-size: 32em;
 }
 
+.content #disqus_thread {
+    font-size: 16em;
+    width: 39em;
+    margin: 1em auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+}
